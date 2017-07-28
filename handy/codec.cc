@@ -2,7 +2,7 @@
 
 using namespace std;
 
-namespace handy {
+namespace handy  {
 
 int LineCodec::tryDecode(Slice data, Slice& msg) {
     if (data.size() == 1 && data[0] == 0x04) {
